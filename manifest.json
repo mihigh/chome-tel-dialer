@@ -1,0 +1,15 @@
+{
+    "name": "Right click to call on FaceTime",
+    "description": "Selecting a phone number and right-clicking it, an option will appear to call that number using FaceTime",
+    "short_name": "FaceTime Caller",
+    "icons": {
+        "16": "img/icon_16.png",
+        "48": "img/icon_48.png"
+    },
+    "manifest_version": 2,
+    "version": "1",
+    "permissions": ["contextMenus"],
+    "background": {
+        "scripts": ["js/background.js"]
+    }
+}
