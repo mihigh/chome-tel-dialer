@@ -8,7 +8,7 @@
         "128": "img/icon_128.png"
     },
     "manifest_version": 2,
-    "version": "2",
+    "version": "4",
     "permissions": [
         "contextMenus",
         "tabs",

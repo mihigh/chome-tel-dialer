@@ -24,7 +24,7 @@ function call(protocol, meniuInfo, tabInfo) {
         + 'var text = document.createTextNode("Call Number");\n'
 
         + 'pre.lang = "html4strict";\n'
-        + 'a.href = "' + protocol + ':' + phoneNumber + '?call";\n'
+        + 'a.href = "' + protocol + ':' + phoneNumber + '";\n'
 
         + 'a.appendChild(text)\n'
         + 'pre.appendChild(a)\n'
